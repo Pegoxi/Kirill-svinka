@@ -19,6 +19,5 @@ public class Calculator {
         System.out.println(size);
         size = size - 5;
         System.out.println(size);
-
     }
 }
