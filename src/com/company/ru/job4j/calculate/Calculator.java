@@ -37,6 +37,5 @@ public class Calculator {
     public static void minus(int firstNum, int secondNum, int thirdNum) {
        int result = firstNum - secondNum - thirdNum;
         System.out.println(result);
-
     }
 }
