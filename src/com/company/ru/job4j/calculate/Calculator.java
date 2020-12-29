@@ -23,10 +23,20 @@ public class Calculator {
        Calculator.plus(100, 500);
        Calculator.plus(4, 2);
        Calculator.plus(3, 5);
+
+       Calculator.minus(100, 600, 42);
+       Calculator.minus(56, 40, 1);
+       Calculator.minus(45, 5, 12);
     }
 
     public static void plus(int firstNum, int secondNum) {
         int result = firstNum + secondNum;
         System.out.println(result);
+    }
+
+    public static void minus(int firstNum, int secondNum, int thirdNum) {
+       int result = firstNum - secondNum - thirdNum;
+        System.out.println(result);
+
     }
 }
