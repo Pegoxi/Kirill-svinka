@@ -1,7 +1,7 @@
 package com.company.ru.job4j.calculate;
 
 public class Calculator {
-    public static void main(String[] args) {
+   public static void main(String[] args) {
         int six = 6;
         int five = 5;
         int four = 4;
@@ -19,5 +19,14 @@ public class Calculator {
         System.out.println(size);
         size = size - 5;
         System.out.println(size);
+
+       Calculator.plus(100, 500);
+       Calculator.plus(4, 2);
+       Calculator.plus(3, 5);
+    }
+
+    public static void plus(int firstNum, int secondNum) {
+        int result = firstNum + secondNum;
+        System.out.println(result);
     }
 }
