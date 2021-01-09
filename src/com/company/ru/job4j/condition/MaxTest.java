@@ -9,6 +9,6 @@ public class MaxTest {
 
     @Test
     public void whenMax1To2Then2() {
-        assertThat(Max.Max(18, 20), is(20));
+        assertThat(Max.findMax(18, 20), is(20));
     }
 }
